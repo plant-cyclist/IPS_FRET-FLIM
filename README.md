@@ -1,9 +1,9 @@
 # IPS FRET-FLIM
 
-This repository provides R scripts for analyzing FRET-FLIM data acquired using PicoQuant's SymPhoTime analysis software.  
+This repository provides R scripts for analyzing FRET-FLIM data that were acquired using PicoQuant's SymPhoTime analysis software.  
 The scripts are designed to semi-automate the evaluation process for performing Interaction Pixel Analyses (IPS).  
-Note that the structure of the scripts aligns with the output format of SymPhoTime.  
-While it is possible to adapt the scripts for  other software as well, doing so requires careful modification.
+Note that the structures of the scripts align with the output format of SymPhoTime.  
+While it is possible to adapt the scripts for  other software as well, doing so requires careful modifications.
 
 ---
 
@@ -25,7 +25,7 @@ The scripts were tested under the following conditions but may also work in othe
 To ensure trouble-free execution, you’ll need to adjust file paths and relevant parameters.  
 Please refer to the comments within the scripts, the *Methods* section of our paper, or the included `IPS_manual.pdf` for detailed instructions.  
 
-For testing purposes, we provide sample input files along with the corresponding output results.
+For testing purposes, we provide sample input files along with the corresponding output results that you can download.
 
 ---
 
