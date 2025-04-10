@@ -1,34 +1,45 @@
 # IPS FRET-FLIM
 
-The here provided R-Scripts can be used to analyze FRET-FLIM data obtained by PicoQuant's SymPhoTime analysis software.  
-The scripts are designed to semi-automate the evaluation process to perform Interaction Pixel Analyses (IPS).  
-Please note that the structure of the scripts is aligned with the structure of the SymPhoTime output.  
-In general, the scripts can be used with other analysis software as well, but careful modification is required.
+This repository provides R scripts for analyzing FRET-FLIM data acquired using PicoQuant's SymPhoTime analysis software.  
+The scripts are designed to semi-automate the evaluation process for performing Interaction Pixel Analyses (IPS).  
+Note that the structure of the scripts aligns with the output format of SymPhoTime.  
+While it is possible to adapt the scripts for  other software as well, doing so requires careful modification.
 
+---
 
-# Requirements 
+## Requirements
 
-The provided scripts were tested under the following condtions, but may perform on lower enviroments as well. 
+The scripts were tested under the following conditions but may also work in other environments:
 
-* Microsoft Windows 11, 64-bit
-* R version 4.4.1
-* RStudio 2024.12.1+563 
+- Microsoft Windows 11 (64-bit)  
+- R version 4.4.1  
+- RStudio version 2024.12.1+563
 
+---
 
-# How to run
+## How to Run
 
-Download the provided R-Scripts.  
-R-Scripts can be opened with RStudio by double-clicking on the R-Scripts.  
-Alternativley R-Scripts can opened by drag-and-drop into RStudio.
+1. Download the provided R scripts.  
+2. Open the scripts in RStudio either by double-clicking or dragging and dropping them into the RStudio window.
 
-For trouble-free execution of the scripts the file paths need to be modified as well as certain parameters of interest.  
-For this, please read the comments in the scripts, the methods section of our paper or the provided IPS_manual.pdf.  
-For testing the scripts, we provide sample files as well as corresponding output results
+To ensure trouble-free execution, you’ll need to adjust file paths and relevant parameters.  
+Please refer to the comments within the scripts, the *Methods* section of our paper, or the included `IPS_manual.pdf` for detailed instructions.  
 
+For testing purposes, we provide sample input files along with the corresponding output results.
 
-# Copryright and License 
+---
 
-Copyright (c) SFB1101 and ZMBP, University of Tübingen, Tübingen.  
+## License
+
+Copyright (c) SFB1101 and ZMBP, University of Tübingen  
 All scripts are licensed under the [GNU GPL](https://www.gnu.org/licenses/).
 
+---
 
+## How to Cite
+
+If you use the IPS FRET-FLIM scripts in your research, please cite our [paper](https://doi.org/10.1101/2024.06.17.598829):
+
+> Prabha Manishankar, Lea Reuter, Leander Rohr, Atiara Fernandez, Yeliz Idil Yigit, Tanja Schmidt, Irina Droste-Borel, Jutta Keicher, Andrea Bock, Claudia Oecking.  
+> *AI-assisted decoding of molecular signatures essential for NON-PHOTOTROPIC HYPOCOTYL3 condensation and function in phototropism.*  
+> [https://doi.org/10.1101/2024.06.17.598829](https://doi.org/10.1101/2024.06.17.598829)
