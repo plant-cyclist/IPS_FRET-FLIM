@@ -1,0 +1,7 @@
+> # Print the statistics and threshold_IPS
+> # Please save the threshold_IPS, since you need it for Script 3.
+> print(statistics)
+  mean_filtered_tau_Av_Int.ns. sd_filtered_tau_Av_Int.ns. count_filtered_tau_Av_Int.ns.
+1                     2.392473                   0.199818                          8369
+> print(threshold_IPS)
+[1] 2.153226
